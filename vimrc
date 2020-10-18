@@ -1,3 +1,4 @@
+# ini dulu
 syntax on
 
 set noerrorbells
@@ -16,7 +17,7 @@ set incsearch
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
-
+# sampe sini
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'

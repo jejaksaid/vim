@@ -18,6 +18,8 @@ set incsearch
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 # sampe sini
+
+# terus call plugin nya dulu
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
@@ -31,7 +33,7 @@ Plug 'mbbill/undotree'
 
 
 call plug#end()
-
+# sampe sini
 colorscheme gruvbox
 set background=dark
 
